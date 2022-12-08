@@ -24,6 +24,10 @@ def filter_the_list(object: list) -> list:
      return filtr
 
 
+def multiply_number(a: int, b: int) -> int:
+    return a * b
+
+
 if __name__ == '__main__':
 
      for element in filter_the_list(geo_logs):
